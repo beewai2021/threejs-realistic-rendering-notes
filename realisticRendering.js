@@ -9,10 +9,10 @@ directionalLight.shadow.mapSize.height = 512 * 2
 directionalLight.shadow.mapSize.width = 512 * 2
 
 // solving shadow acne
+// 0.00 <---> 0.05 should be a good enough range
 directionalLight.shadow.bias = 0.05 // flat surfaces
 directionalLight.shadow.normalBias = 0.05 // rounded surfaces
 // shrinking impacted mesh smaller so that it doesn't cast shadows on itself
-// 0.00 <---> 0.05 should be a good enough range
 
 // ================================================================================
 
